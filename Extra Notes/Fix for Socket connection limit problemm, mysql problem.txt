@@ -1,0 +1,21 @@
+install gksu
+
+gksudo gedit /proc/sys/vm/max_map_count
+
+increase count value
+
+
+;;;;;;;
+set global max connection variable of my sql
+
+
+set global max_connections = 100000;
+
+set global connect_timeout = 100000000000;
+
+'''
+IN MY.CNF
+BIND ADRESS COMMENT
+
+[mysqld]
+skip-name-resolve

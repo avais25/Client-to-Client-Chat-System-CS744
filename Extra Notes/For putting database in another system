@@ -1,0 +1,14 @@
+Step 1
+
+sudo chmod 755 /etc/mysql/mysql.conf.d
+
+edit mysql.conf,d
+
+Comment #bind-address		= 127.0.0.1
+
+Step 2
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'synergy' WITH GRANT OPTION;
+
+FLUSH PRIVILEGES;
+
